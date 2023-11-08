@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>hw3</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Classification in Python</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -17786,6 +17786,18 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>The fluctuations in training and testing accuracy plots are so high. which indicates that there is a high possibility of our model being sensitive to small changes while training. One another reason might be the noise present in the data while training the model.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Linear-classifiers">Linear classifiers<a class="anchor-link" href="#Linear-classifiers">&#182;</a></h2>
 </div>
 </div>
@@ -18046,7 +18058,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Training accuracy and testing accuracy are separated from each other. They don't overlap which signifies that this is a poor model for this dataset.</p>
+<p>From the above plot we can infer that testing accuracy is greater than training accuracy, which signifies that the model is overfitting.</p>
 
 </div>
 </div>
@@ -18290,7 +18302,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>As we can see in the plot above, we can observe that SVM performs better than logistic regression, still it is poorly performing.</p>
+<p>As we can see in the plot above, we can observe that SVM performs better than logistic regression, even tough it is overfitting.</p>
 
 </div>
 </div>
